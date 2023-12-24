@@ -1,0 +1,96 @@
+body{
+
+    background-image: url("/images/img.comp.jpg");
+    background-size: cover;
+  
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(201, 116, 13);
+    text-decoration: underline;
+
+}
+
+.btn{
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 25px;
+    background-color: rebeccapurple ;
+    border-radius: 20px;
+    margin: 1px;  
+   
+}
+.btn:hover{
+    cursor: grab;
+
+}
+
+.chance{
+    text-align: center;
+    color:rgb(245, 249, 3);
+    position: relative;
+    font-weight:900;
+}
+.chance::after{
+
+    position: absolute;
+    content:"";
+    left:43%;
+    bottom:-6px;
+    right: 43%;
+    height: 4px;
+    background-color: rgb(9, 255, 0);
+
+}
+.container{
+ margin-top: 10vh;
+}
+
+#row1 , #row2, #row3{
+    display: flex;
+    justify-content: center;
+  
+}
+#reset{
+
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+
+}
+#res{
+
+    width: 150px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: rgb(249, 0, 0);
+    font-size: larger;
+}
+
+#res:hover{
+
+    cursor: pointer;
+    
+}
+
+.trans {
+  
+       
+
+     text-shadow: 0 0 #000, 0 1px 0 #000, 0 2px 0 #000, 0 2px 0 #000;
+     color: rgb(0, 109, 136);
+     text-transform: trans;
+     box-shadow: 20px 20px 100px rgb(250, 248, 248),inset
+                 -20px -20px 60px rgb(253, 241, 3)
+      
+      
+}
+
+
+
+
+
+
